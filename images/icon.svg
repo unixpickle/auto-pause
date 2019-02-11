@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <path id="right-half" fill="#f45342" d="M75,20 v60 h-20 v-60 z" />
-    <path id="left-half" fill="#393939" d="M25,20 v60 h20 v-60 z" />
+    <path id="right-half" fill="#f45342" d="M88,10 v80 h-30 v-80 z" />
+    <path id="left-half" fill="#393939" d="M12,10 v80 h30 v-80 z" />
 </svg>
