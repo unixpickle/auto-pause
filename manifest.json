@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "auto-pause",
+    "version": "0.1",
+    "page_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_title": "auto-pause"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "declarativeContent",
+        "tabs",
+        "https://play.google.com/music/*"
+    ],
+    "externally_connectable": {
+        "matches": [
+            "https://play.google.com/music/*"
+        ]
+    }
+}
